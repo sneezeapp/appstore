@@ -1,0 +1,123 @@
+{
+    "version": "1.4",
+    "domains": {
+        "en": {
+            "root" : "https://gallerix.org",
+            "album": {
+                "home": "/a1"
+            },
+            "storeroom": {
+                "home": "/storeroom/"
+            },
+            "musems": {
+                "home": "/album/Museums"
+            },
+            "search": {
+                "home": "/roster/"
+            },
+            "russian": {
+                "home": "/album/Russians"
+            }
+        },
+        "ru":{
+            "root" : "https://gallerix.ru",
+            "album": {
+                "home": "/a1"
+            },
+            "storeroom": {
+                "home": "/storeroom/"
+            },
+            "musems": {
+                "home": "/album/Museums"
+            },
+            "search": {
+                "home": "/roster/"
+            },
+            "russian": {
+                "home": "/album/Russians"
+            }
+        },
+        "es":{
+            "root" : "https://es.gallerix.ru",
+            "album": {
+                "home": "/a1"
+            },
+            "storeroom": {
+                "home": "/storeroom/"
+            },
+            "musems": {
+                "home": "/album/Museums"
+            },
+            "search": {
+                "home": "/roster/"
+            },
+            "russian": {
+                "home": "/album/Russians"
+            }
+        },
+        "fr":{
+            "root" : "https://fr.gallerix.ru",
+            "album": {
+                "home": "/a1"
+            },
+            "storeroom": {
+                "home": "/storeroom/"
+            },
+            "musems": {
+                "home": "/album/Museums"
+            },
+            "search": {
+                "home": "/roster/"
+            },
+            "russian": {
+                "home": "/album/Russians"
+            }
+        },
+        "de":{
+            "root" : "https://de.gallerix.ru",
+            "album": {
+                "home": "/a1"
+            },
+            "storeroom": {
+                "home": "/storeroom/"
+            },
+            "musems": {
+                "home": "/album/Museums"
+            },
+            "search": {
+                "home": "/roster/"
+            },
+            "russian": {
+                "home": "/album/Russians"
+            }
+        },
+        "zh":{
+            "root" : "https://gallerix.asia",
+            "album": {
+                "home": "/a1"
+            },
+            "storeroom": {
+                "home": "/storeroom/"
+            },
+            "musems": {
+                "home": "/album/Museums"
+            },
+            "search": {
+                "home": "/roster/"
+            },
+            "russian": {
+                "home": "/album/Russians"
+            }
+        }
+    },
+    "update" : {
+        "force" : "0",
+        "version" : "3.4"
+    },
+    "excludes" : {
+        "titles" : []
+    },
+    "features" : {
+        "excludes" : []
+    }
+}

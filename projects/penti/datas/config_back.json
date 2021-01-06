@@ -1,0 +1,49 @@
+  
+{
+    "version": "1.0",
+    "domains": {
+        "en": {
+            "root" : "https://gallerix.org",
+            "album": {
+                "home": "/a1"
+            },
+            "storeroom": {
+                "home": "/storeroom/"
+            },
+            "musems": {
+                "home": "/album/Museums"
+            },
+            "search": {
+                "home": "/roster/"
+            },
+            "russian": {
+                "home": "/album/Russians"
+            }
+        },
+        "cn":{
+            "root" : "https://gallerix.asia",
+            "album": {
+                "home": "/a1"
+            },
+            "storeroom": {
+                "home": "/storeroom/"
+            },
+            "musems": {
+                "home": "/album/Museums"
+            },
+            "search": {
+                "home": "/roster/"
+            },
+            "russian": {
+                "home": "/album/Russians"
+            }
+        }
+    },
+    "update" : {
+        "force" : "0",
+        "version" : "2.1"
+    },
+    "excludes" : {
+        "titles" : ["Vincent van Gogh", "Adolphe", "Leonardo", "Rembrandt", "Ilya Repin", "Raphael", "Peter Paul", "Alessandro", "Titian", "Nicolas", "Paul", "Giovanni", "John Collier", "John William", "Jean-", "Guido Reni", "Evelyn De Morgan", "Steve Hanks", "Henri Matisse", "Francisco de Goya y Lucientes", "Ferdinand Georg Waldmüller", "Giovanni Boldini", "Giovanni Bellini", "Paul Gauguin", "Nicolas Poussin", "Pierre-Auguste Renoir", "Lucas Cranach and Workshop", "Edward John Poynter", "Lawrence Alma-Tadema", "Jean Honore Fragonard", "Francois Boucher", "Hans Zatzka", "900 Classic russian paintings", "Feshin, Nikolay", "Petrov-Vodkin, Kuzma Sergeevich", "Borisov-Musatov, Viktor", "Tihov, Vitaly Gavrilovich", "Serebryakova, Zinaida", "Somov, Konstantin Andreevich"]
+    }
+}

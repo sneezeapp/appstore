@@ -1,0 +1,37 @@
+{
+  "version": "2.3",
+  "host": "http://www.dapenti.com/blog/",
+  "main": "http://www.dapenti.com/blog/indexforweb.asp",
+  "yizhoutugua": "一周图卦",
+  "excludes": [
+    "一周图卦"
+  ],
+  "priority": "乐活",
+  "pttgnewest": "铂程斋",
+  "refresh": "120",
+  "iframeheight": "1000",
+  "displaysource": "0",
+  "displayprogress": "1",
+  "home": {
+    "title": "喷嚏图卦",
+    "href": "http://www.dapenti.com/blog/blog.asp?subjectid=70&name=xilei"
+  },
+  "pentiyixia": {
+    "title": "喷嚏一下",
+    "href": "http://www.dapenti.com/blog/blog.asp?subjectid=137&name=xilei"
+  },
+  "description": "阅读、发现和分享：8小时外的健康生活！",
+  "yitu": {
+    "first": "https://raw.githubusercontent.com/jiangyazhou/appstore/master/yitu.json",
+    "second": "https://jp.rsscc.com/config/ios/testicons/yitu.json"
+  },
+  "moreapp": {
+    "first": "https://raw.githubusercontent.com/jiangyazhou/appstore/master/moreapp/penti.json",
+    "second": "https://jp.rsscc.com/config/ios/testicons/moreapp.json"
+  },
+  "recommend": {
+    "first": "https://raw.githubusercontent.com/jiangyazhou/appstore/master/recommend/penti.json",
+    "second": "https://jp.rsscc.com/config/ios/testicons/recommend.json"
+  },
+  "review" : "https://jp.rsscc.com/config/ios/testicons/review4_3.json"
+}
