@@ -1,0 +1,60 @@
+{
+    "version" : "1.2",
+    "source": "binfenyingyu",
+    "callback": "0",
+    "candownload" : "0",
+    "youkuapi": "ups.youku.com/ups/get.json",
+    "play": [{
+        "in": "dic",
+        "key": "data",
+        "way": "get",
+        "out": "dic"
+    }, {
+        "in": "dic",
+        "key": "stream",
+        "way": "get",
+        "out": "arr"
+    }, {
+        "in": "arr",
+        "key": "0",
+        "way": "index",
+        "out": "dic"
+    }, {
+        "in": "dic",
+        "key": "m3u8_url",
+        "way": "get",
+        "out": "str"
+    }],
+    "download": [{
+        "in": "dic",
+        "key": "data",
+        "way": "get",
+        "out": "dic"
+    }, {
+        "in": "dic",
+        "key": "stream",
+        "way": "get",
+        "out": "arr",
+    }, {
+        "in": "arr",
+        "key": "stream_type",
+        "way": "for",
+        "equal": "3gphd",
+        "out": "dic"
+    }, {
+        "in": "dic",
+        "key": "segs",
+        "way": "get",
+        "out": "arr"
+    }, {
+        "in": "arr",
+        "key": "0",
+        "way": "index",
+        "out": "dic"
+    }, {
+        "in": "dic",
+        "key": "cdn_url",
+        "way": "get",
+        "out": "str"
+    }]
+}
