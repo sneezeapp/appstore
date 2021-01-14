@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <title>100 Best Piano Classic</title>
+
+</head>
+
+<body>
+    <div class="header margin-bottom60">
+        <div class="container">
+            <h1 class="pull-left">100 Best Piano Classic</h1>
+            <p class="pull-right">
+                Updated：2017-05-17 </p>
+        </div>
+    </div>
+    <div class="banxin">
+        <div class="app_logo margin-bottom60">
+            <img src="images/icon_120x120.png" width="120" height="120" alt="" />
+        </div>
+
+        <!-- 只选择一种平台的时候 -->
+        <div style="display:block;margin:0 auto;width:180px;" id="wx_btn1">
+            <a href="http://itunes.apple.com/cn/app/id1236733173?mt=8" style="display:block;margin:0 auto;width:180px;">
+                <img src="images/iph.png" alt="" class="center-block margin-bottom60" />
+            </a>
+        </div>
+
+
+        <div class="qr1">
+            <div class="text-center" style="margin-bottom:9px;">
+                Or use the phone to scan the following two-dimensional code to install<br>
+            </div>
+            <img src="images/qrcode.png" alt="" class="center-block margin-bottom60">
+        </div>
+        <hr class="margin-bottom60" />
+        <div class="desp">
+            <h2>App introduction</h2>
+            <div class="dsp margin-bottom60">
+                <section>
+                    100 Best Piano Classics is a piano set focused on the standard keyboard repertoire of the Classical
+                    and Romantic eras. The most familiar names associated with piano music are represented here,
+                    including Wolfgang Amadeus Mozart, Frédéric Chopin, Franz Liszt, Ludwig van Beethoven, Sergey
+                    Rachmaninov, Claude Debussy, and many other celebrated composers who worked at the keyboard and
+                    wrote much of their best music for it. Included are great performances by illustrious pianists such
+                    as Martha Argerich, Sviatoslav Richter, Aldo Ciccolini, Emil Gilels, Maurizio Pollini, Christian
+                    Zacharias etc. The performances span several decades, but because specific years are not given in
+                    the tracklisting, experienced listeners may resort to educated guesswork.
+                </section>
+            </div>
+        </div>
+        <div>
+            <h2>App screenshots</h2>
+            <div class="table-responsive">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div style="">
+                                    <img src="images/screen1.png">
+                                </div>
+                            </td>
+                            <td>
+                                <div style="">
+                                    <img src="images/screen2.png">
+                                </div>
+                            </td>
+                            <td>
+                                <div style="">
+                                    <img src="images/screen3.png">
+                                </div>
+                            </td>
+                            <td>
+                                <div style="">
+                                    <img src="images/screen4.png">
+                                </div>
+                            </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="footer" style="text-align: center;background: #fff;">
+            Copyright © blackberrychou Technical support:<a href="mailto:blackberrychou@163.com"
+                style="color:rgb(0, 128, 214);">jyz198701@sina.com</a>
+        </div>
+        <!--/row-fluid-->
+    </div>
+    <div class="wxtip" id="JweixinTip">
+        <span class="wxtip-icon"></span>
+        <p class="wxtip-txt">Click on the upper right corner<br>Choose to open in other browsers</p>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://www.bmob.cn/themes/2016-3/static/js/frontend/websitebase.js"></script>
+    <script type="text/javascript">
+        function fun(a) {
+            a.onclick = function (e) {
+                var ua = navigator.userAgent.toLowerCase();
+                if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                    window.event ? window.event.returnValue = false : e.preventDefault();
+                    document.getElementById('JweixinTip').style.display = 'block';
+                    document.getElementById('JweixinTip').onclick = function () {
+                        this.style.display = 'none';
+                    }
+                    return true;
+                }
+                else {
+
+                }
+            }
+        }
+        if (document.getElementById("wx_btn1")) {
+            fun(document.getElementById("wx_btn1"));
+        }
+        if (document.getElementById("wx_btn2")) {
+            fun(document.getElementById("wx_btn2"));
+        }
+
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8bd127f03a0fb66b134fe06b676f0dfc' type='text/javascript'%3E%3C/script%3E"));
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb38f059c148ad1aa4d0fc03a170a5561' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</body>
+
+</html>
