@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telphone=no, email=no"/>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/global.css"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <title>SPA Music Collection</title>
+
+</head>
+<body>
+<div class="header margin-bottom60">
+    <div class="container">
+        <h1 class="pull-left">Gallerix-Paintings Art Gallery</h1>
+        <p class="pull-right">
+            Updated：2017-05-17        </p>
+    </div>
+</div>
+<div class="banxin">
+    <div class="app_logo margin-bottom60">
+        <img src="images/icon_120x120.png" width="120" height="120" alt=""/>
+    </div>
+    
+    <!-- 只选择一种平台的时候 -->
+            <div style="display:block;margin:0 auto;width:180px;" id="wx_btn1">
+            <a href="http://itunes.apple.com/cn/app/id1236733173?mt=8" style="display:block;margin:0 auto;width:180px;" >
+                <img src="images/iph.png" alt="" class="center-block margin-bottom60"/>
+            </a>
+         </div>
+        
+
+                <div class="qr1">
+            <div class="text-center" style="margin-bottom:9px;">
+                Or use the phone to scan the following two-dimensional code to install<br>
+            </div>
+            <img src="images/qrcode.png" alt="" class="center-block margin-bottom60">
+        </div>
+            <hr class="margin-bottom60"/>
+    <div class="desp">
+        <h2>App introduction</h2>
+        <div class="dsp margin-bottom60">
+            <section>
+                *****The First Music Therapy Collection*****
+
+“SPA Music Collection” is based on the scientific principle of the human body’s itself cross citation,which merge the selected pure natural sounds and music design into one.It will help people in modern city who have all kinds of sub healthy condition to release pressure and relieve the body and mind.
+    Some suitable for lazy afternoon sunshine, in front of the clean white bright and spacious windows, hiding in the soft and comfortable sofa, curl up on the knees, narrowing eyes to enjoy the warm spring in the air, at the same time, leisurely slowly stirred fragrant coffee, let your mind with coffee waves ripple to bathe oneself in the cool and pure music blue sea. Simple, fresh, lazy rhythm can relieve the heart tired, flipping all kinds of nostalgic sound sweet manufactured notes, to stimulate a variety of sweet taste of the voices of warmth. Listen with deep feeling, there is always a kind of touch in my heart. Or bitter or sweet.
+    Some of the melody gentle, tone tactful, creating a special enron atmosphere can help insomnia to overcome the bad sleep factors, the best music therapy choice to upgrade the quality of sleep. Let the vibrant vitality again, let all the internal stress and burnout backlog completely dispel.
+    Urban complex fast-paced, bring long-term chronic fatigue and mental stress, how long did not sleep a good sleep, put aside all the dedication, Let the music again to help you retrieve long lost natural sleep, quietly enjoy the fun of a deep sleep like a baby. In the sweet dreamland again meet long lost prince charming and angel.
+    In addition to promote sleep, but also as daily relaxation, recreation, meditation, listening with reading, etc., like a fairyland, have very good results.
+
+    This collection includes:
+    1)Spa Ultimate Sleeping;
+    2)Spa Calm Down My Heart;
+    3)Spa Spiritual Massage;
+    4)Spa Coffee Music;
+    5)Spa Red Grage Wine;
+    6)Spa Tea Music.
+            </section>
+        </div>
+    </div>
+    <div>
+        <h2>App screenshots</h2>
+        <div class="table-responsive">
+            <table class="table">
+                <tbody>
+                <tr>
+                                                <td>
+                                <div style="">
+                                    <img src="images/screen1.png">
+                                </div>
+                            </td>
+                                                    <td>
+                                <div style="">
+                                    <img src="images/screen2.png">
+                                </div>
+                            </td>
+                                                    <td>
+                                <div style="">
+                                    <img src="images/screen3.png">
+                                </div>
+                            </td>
+                                                    <td>
+                                <div style="">
+                                    <img src="images/screen4.png">
+                                </div>
+                            </td>
+                                                        <td></td>
+                                                                <td></td>
+                                                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="footer" style="text-align: center;background: #fff;">
+        Copyright © blackberrychou Technical support:<a href="mailto:blackberrychou@163.com" style="color:rgb(0, 128, 214);">jyz198701@sina.com</a>
+    </div><!--/row-fluid-->
+</div>
+<div class="wxtip" id="JweixinTip">
+    <span class="wxtip-icon"></span>
+    <p class="wxtip-txt">Click on the upper right corner<br>Choose to open in other browsers</p>
+</div>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://www.bmob.cn/themes/2016-3/static/js/frontend/websitebase.js"></script>
+<script type="text/javascript">
+    function fun(a){
+      a.onclick=function(e){
+        var ua = navigator.userAgent.toLowerCase();  
+        if(ua.match(/MicroMessenger/i)=="micromessenger") {
+        window.event? window.event.returnValue = false : e.preventDefault();
+        document.getElementById('JweixinTip').style.display='block';
+        document.getElementById('JweixinTip').onclick=function(){
+            this.style.display='none';
+            }
+            return true;
+        }
+        else{
+            
+        }
+    }      
+    }
+    if(document.getElementById("wx_btn1")){
+      fun(document.getElementById("wx_btn1"));  
+    }
+    if(document.getElementById("wx_btn2")){
+        fun(document.getElementById("wx_btn2"));
+    }
+
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8bd127f03a0fb66b134fe06b676f0dfc' type='text/javascript'%3E%3C/script%3E"));
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb38f059c148ad1aa4d0fc03a170a5561' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>
